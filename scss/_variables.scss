@@ -1,0 +1,24 @@
+$main-color: green;
+
+// --------------- MIXINS ---------------//
+
+@mixin transition {
+	transition: all .3s ease;
+}
+
+@mixin btn {
+	font-family: 'AvenirHeavy', Arial, sans-serif;
+	background-color: $main-color;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	@include transition;
+
+	&:hover {
+
+		@include transition;
+	}
+	&:focus {
+		outline:none;
+	}
+}
