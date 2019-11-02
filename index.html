@@ -1,19 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Newdigital</title>
-    <link rel="stylesheet" type="text/css" href="/dist/_style.css">
+    <link rel="stylesheet" href="dist/bootstrap-4.3.1/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="dist/bootstrap-4.3.1/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="dist/bootstrap-4.3.1/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+        });
+
+    </script>
 </head>
+
 <body>
-    <div class="about">
-        <div class="catalog-item__prices">
-            <div class="catalog-item__old-price">6 990 руб.</div>
-            <div class="catalog-item__price">6 641 руб.</div>
-        </div>
-        <button class="buttonb">КУПИТЬ</button>
-    </div>
+    <!-- Section SmallHeader -->
+    <div id="smallheader" class="smallheader">
+        </header>
+
+        <!-- Section Header -->
+        <header id="header" class="header">
+
+            <!-- Logo and navigation -->
+
+            <div class="nav-wrapper w-100 d-flex justify-content-between">
+                <div class="logo">
+                    <a href="#">
+                        <img class="logo__img" src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <ul class="nav">
+                        <li class="nav__item">
+                            <a class="nav__link active" href="#header">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#about">About us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#services">Why us?</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#works">FAQ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#contact">Post now</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#contact">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="fat-nav">
+                <div class="fat-nav__wrapper">
+                    <ul class="nav">
+                        <li class="nav__item"><a class="nav__link" href="#header">Home</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#about">About us</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#services">Why us?</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#works">FAQ</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#contact">Post now</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#contact">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Header main content -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="header__title text-center">Feature Posts</h1>
+                        <h3 class="header__subtitle text-center">Posts That Contain Interviews Or News Stories About
+                            You,<br>
+                            Your Company Or Product/Service</h3>
+                        <p>You can contact us on: </p>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- Section About Us -->
+
+        <section id="about" class="section about">
+
+            <div class="container about-container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="about-us text-center">
+                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <h2 class="about-us__title">ABOUT US</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-7">
+                        <div class="about-us__content">
+                            <p class="about-us__content--1">
+                                Nullam quis risus eget urna <b>mollis ornare</b> vel eu leo. Donec id elit non mi porta
+                                gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus
+                                sagittis
+                                lacus vel augue laoreet rutrum faucibus dolor auctor.
+                            </p>
+                            <p class="about-us__content--2">
+                                <b>Morbi leo risus</b>, porta ac consectetur ac, vestibulum at eros. Vivamus
+                                sagit&shytis
+                                lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque
+                                ornare sem lacinia quam venenatis vestibulum. Mae&shycenas faucibus mollis interdum.
+                                Cras
+                                mattis consectetur purus sit amet <i>fermentum</i>. Sed posuere consectetur est at
+                                lobortis.
+                            </p>
+                        </div>
+                        <div class="btn__primary">
+                            <a class="button__primary" href="javascript:void(0);" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="posts" class="section posts">
+            <h2 class="posts__title">ABOUT US</h2>
+            <div class="container about-container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="about-us text-center">
+                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <h2 class="about-us__title">ABOUT US</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="about-us text-center">
+                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <h2 class="about-us__title">ABOUT US</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="about-us text-center">
+                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <h2 class="about-us__title">ABOUT US</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="about-us text-center">
+                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <h2 class="about-us__title">ABOUT US</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section contact">
+            <h2 class="posts__title">ABOUT US</h2>
+            <div class="container about-container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="about-us text-center">
+                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <h2 class="about-us__title">ABOUT US</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="about-us text-center">
+                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <h2 class="about-us__title">ABOUT US</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="about-us text-center">
+                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <h2 class="about-us__title">ABOUT US</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="help" class="section help">
+            <div class="container about-container">
+                <div id="accordion">
+                    <h3>Section 1</h3>
+                    <div>
+                        <p>
+                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                        </p>
+                    </div>
+                    <h3>Section 2</h3>
+                    <div>
+                        <p>
+                            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                            suscipit faucibus urna.
+                        </p>
+                    </div>
+                    <h3>Section 3</h3>
+                    <div>
+                        <p>
+                            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                        </p>
+                        <ul>
+                            <li>List item one</li>
+                            <li>List item two</li>
+                            <li>List item three</li>
+                        </ul>
+                    </div>
+                    <h3>Section 4</h3>
+                    <div>
+                        <p>
+                            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                            mauris vel est.
+                        </p>
+                        <p>
+                            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Footer -->
+    
+    <footer id="footer" class="footer">
+
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-12 col-md-6 order-sm-2 order-md-1 footer__copy">
+                        <p class="footer__text">&copy;2014 <a class="footer__link" href="javascript:void(0);"
+                                target="_blank">tulus</a>driyo. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 order-sm-1 order-md-2">
+                        <div class="socials footer__socials d-flex justify-content-end">
+                            <a class="socials__link socials__link--behance" href="javascript:void(0);" target="_blank">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a class="socials__link socials__link--linkedin" href="javascript:void(0);" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="socials__link socials__link--google" href="javascript:void(0);" target="_blank">
+                                <i class="icon-iconfinder_google-plus_326652"></i>
+                            </a>
+                            <a class="socials__link socials__link--facebook" href="javascript:void(0);" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="socials__link socials__link--twitter" href="javascript:void(0);" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </footer>
+        <script src="/js/script.js"></script>
 </body>
+
 </html>
