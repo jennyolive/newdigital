@@ -1,4 +1,8 @@
 @import "_variables.scss";
-.buttonb{
+.button__primary{
     @include btn;
+    &:hover {
+        text-decoration: none;
+        color:white;
+    }
 }

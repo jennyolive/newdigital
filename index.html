@@ -10,14 +10,6 @@
     <link rel="stylesheet" href="dist/bootstrap-4.3.1/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="dist/bootstrap-4.3.1/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/dist/style.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <script>
-        $(function () {
-            $("#accordion").accordion();
-        });
-
-    </script>
 </head>
 
 <body>
@@ -74,7 +66,7 @@
 
             <!-- Header main content -->
 
-            <div class="container">
+            <div class="mainheader">
                 <div class="row">
                     <div class="col-12">
                         <h1 class="header__title text-center">Feature Posts</h1>
@@ -93,13 +85,13 @@
 
             <div class="container about-container">
                 <div class="row justify-content-between">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="about-us text-center">
-                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <img class="about-us__img" src="images/about.jpg" alt="about-us">
                             <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-7">
+                    <div class="col-md-6 col-lg-5">
                         <div class="about-us__content">
                             <p class="about-us__content--1">
                                 Nullam quis risus eget urna <b>mollis ornare</b> vel eu leo. Donec id elit non mi porta
@@ -118,7 +110,7 @@
                             </p>
                         </div>
                         <div class="btn__primary">
-                            <a class="button__primary" href="javascript:void(0);" target="_blank">Learn More</a>
+                            <a class="button__primary" href="javascript:void(0);">Get a Feature Post</a>
                         </div>
                     </div>
                 </div>
@@ -126,30 +118,30 @@
 
         </section>
         <section id="posts" class="section posts">
-            <h2 class="posts__title">ABOUT US</h2>
+            <h2 class="posts__title">POSTS</h2>
             <div class="container about-container">
                 <div class="row justify-content-between">
-                    <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="about-us text-center">
-                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <img class="about-us__img" src="images/content.png" alt="about-us">
                             <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="about-us text-center">
-                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <img class="about-us__img" src="images/pay.png" alt="about-us">
                             <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="about-us text-center">
-                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <img class="about-us__img" src="images/computer.png" alt="about-us">
                             <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="about-us text-center">
-                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <img class="about-us__img" src="images/percent.png" alt="about-us">
                             <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
@@ -162,76 +154,51 @@
                 <div class="row justify-content-between">
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="about-us text-center">
-                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <img class="about-us__img" src="images/location.png" alt="about-us">
                             <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="about-us text-center">
-                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <img class="about-us__img" src="images/email.png" alt="about-us">
                             <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="about-us text-center">
-                            <img class="about-us__img" src="img/Icon-AboutUs.png" alt="about-us">
+                            <img class="about-us__img" src="images/skype.png" alt="about-us">
                             <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="help" class="section help">
+        <section id="faq" class="section faq">
             <div class="container about-container">
-                <div id="accordion">
-                    <h3>Section 1</h3>
-                    <div>
-                        <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                        </p>
+               <!-- блок аккордеон -->
+               <div class="row">
+                <div class="col">
+                  <h2>Open <b>multiple</b></h2>
+                  <div class="tabs">
+                    <div class="tab">
+                      <input type="checkbox" id="chck1">
+                      <label class="tab-label" for="chck1">Item 1</label>
+                      <div class="tab-content">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                      </div>
                     </div>
-                    <h3>Section 2</h3>
-                    <div>
-                        <p>
-                            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                            suscipit faucibus urna.
-                        </p>
+                    <div class="tab">
+                      <input type="checkbox" id="chck2">
+                      <label class="tab-label" for="chck2">Item 2</label>
+                      <div class="tab-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                      </div>
                     </div>
-                    <h3>Section 3</h3>
-                    <div>
-                        <p>
-                            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-                            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-                            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-                            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-                        </p>
-                        <ul>
-                            <li>List item one</li>
-                            <li>List item two</li>
-                            <li>List item three</li>
-                        </ul>
-                    </div>
-                    <h3>Section 4</h3>
-                    <div>
-                        <p>
-                            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-                            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-                            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-                            mauris vel est.
-                        </p>
-                        <p>
-                            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                            inceptos himenaeos.
-                        </p>
-                    </div>
+                  </div>
                 </div>
-            </div>
+                </div>
+    <!-- конец блока аккордеон -->    
+                </div>
         </section>
         <!-- Section Footer -->
     
@@ -266,7 +233,9 @@
             </div>
     
         </footer>
+       
         <script src="/js/script.js"></script>
+        
 </body>
 
 </html>

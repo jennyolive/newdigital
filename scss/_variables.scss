@@ -1,24 +1,37 @@
-$main-color: green;
+$red-color: #fa4a33;
+$dark-color:#4070cf;
+$blue-color:#0099ff;
+$faq-color:#0d3693;
+$darktitle:#3c3c3c;
+//---------------- FONTS ----------------//
+
+@font-face {
+	font-family:'Source Sans Pro', sans-serif;
+	src: url(../fonts/SourceSansPro-Regular.otf);
+}
 
 // --------------- MIXINS ---------------//
 
-@mixin transition {
+@mixin changesize {
 	transition: all .3s ease;
+	transform: scale(1.1);
 }
 
 @mixin btn {
-	font-family: 'AvenirHeavy', Arial, sans-serif;
-	background-color: $main-color;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: $red-color;
 	border: none;
-	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	padding-left:41px;
+	padding-right:41px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-radius:50px;
 	cursor: pointer;
-	@include transition;
-
+	display: inline-block;
+	
 	&:hover {
-
-		@include transition;
-	}
-	&:focus {
-		outline:none;
+	@include changesize;
 	}
 }
