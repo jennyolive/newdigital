@@ -3,17 +3,28 @@ $dark-color:#4070cf;
 $blue-color:#0099ff;
 $faq-color:#0d3693;
 $darktitle:#3c3c3c;
+$text-color:#4f4f4f;
 //---------------- FONTS ----------------//
 
 @font-face {
 	font-family:'Source Sans Pro', sans-serif;
 	src: url(../fonts/SourceSansPro-Regular.otf);
+	font-weight:400;
 }
-
+@font-face {
+	font-family:'Source Sans Pro', sans-serif;
+	src: url(../fonts/SourceSansPro-Bold.otf);
+	font-weight:700;
+}
+@font-face {
+	font-family:'Montserrat', sans-serif;
+	src: url(../fonts/Montserrat-Bold.otf);
+	font-weight:700;
+}
 // --------------- MIXINS ---------------//
 
 @mixin changesize {
-	transition: all .3s ease;
+	transition: all .1s ease;
 	transform: scale(1.1);
 }
 
@@ -23,6 +34,7 @@ $darktitle:#3c3c3c;
 	border: none;
 	color: white;
 	font-size: 20px;
+	font-weight:400;
 	padding-left:41px;
 	padding-right:41px;
 	padding-top:20px;
@@ -34,4 +46,16 @@ $darktitle:#3c3c3c;
 	&:hover {
 	@include changesize;
 	}
+}
+@mixin txtdescr {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+@mixin titleh {
+	font-family:'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	color:$darktitle;
 }

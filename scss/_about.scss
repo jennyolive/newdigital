@@ -1,8 +1,22 @@
 @import "_variables.scss";
+
+#about{
+padding-top:140px;
+}
 .button__primary{
     @include btn;
     &:hover {
         text-decoration: none;
         color:white;
     }
+}
+.about-us{
+    &__img{
+    width:536px;
+    height:358px;   
+}
+&__content{
+    @include txtdescr;
+    color:$text-color;
+}
 }

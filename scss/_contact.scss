@@ -1,0 +1,30 @@
+@import "_variables.scss";
+
+#contact{
+    background: url("../images/secondbg.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    padding-top:58px;
+    padding-bottom: 50px;
+    }
+.contact__img{
+    margin-bottom: 20px;
+   
+}
+a{
+    display:inline-block;
+    @include txtdescr;
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    &:hover{
+        @include changesize;
+        color:white;
+        text-decoration: none;
+    }
+}
+.contact__title{
+    @include titleh; 
+    color:white;
+    margin-bottom: 50px;
+}

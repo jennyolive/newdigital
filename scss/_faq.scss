@@ -1,5 +1,9 @@
-$midnight: #2c3e50;
-$clouds: #ecf0f1;
+@import "_variables.scss";
+
+#faq{
+    padding-top:156px;
+    padding-bottom: 110px;
+}
 input {
     position: absolute;
     opacity: 0;
@@ -18,6 +22,9 @@ input {
     overflow: hidden;
     margin:0;
     border-bottom:1px solid grey;
+    &:last-child{
+        border-bottom: 0;
+    }
     &-label {
       display: flex;
       justify-content: space-between;
@@ -29,21 +36,21 @@ input {
      
       /* Icon */
       &:hover {
-        color: red;
+        color: $faq-color;
       }
       &::after {
         content: "\276F";
         width: 1em;
         height: 1em;
         text-align: center;
-        transition: all .35s;
+        transition: all .20s ease;
       }
     }
     &-content {
       max-height: 0;
       color: grey;
       background: white;
-      transition: all .35s;
+      transition: all .20s ease;
     }
     &-close {
       display: flex;

@@ -84,14 +84,14 @@
         <section id="about" class="section about">
 
             <div class="container about-container">
+                    <h2 class="about__title text-center">About Us</h2>
                 <div class="row justify-content-between">
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-sm-12 col-md-12 col-lg-3">
                         <div class="about-us text-center">
                             <img class="about-us__img" src="images/about.jpg" alt="about-us">
-                            <h2 class="about-us__title">ABOUT US</h2>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-5">
+                    <div class="col-md-12 col-lg-5">
                         <div class="about-us__content">
                             <p class="about-us__content--1">
                                 Nullam quis risus eget urna <b>mollis ornare</b> vel eu leo. Donec id elit non mi porta
@@ -118,56 +118,69 @@
 
         </section>
         <section id="posts" class="section posts">
-            <h2 class="posts__title">POSTS</h2>
-            <div class="container about-container">
-                <div class="row justify-content-between">
+            <h2 class="posts__title text-center">Posts Start From <span>Only $250</span></h2>
+            <div class="container posts-container">
+                <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="about-us text-center">
-                            <img class="about-us__img" src="images/content.png" alt="about-us">
-                            <h2 class="about-us__title">ABOUT US</h2>
+                        <div class="posts text-center">
+                            <img class="posts__img" src="images/content.png" alt="about-us">
+                            <p class="descr">Content Is Included In
+                                The Price</p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="about-us text-center">
-                            <img class="about-us__img" src="images/pay.png" alt="about-us">
-                            <h2 class="about-us__title">ABOUT US</h2>
+                        <div class="posts text-center">
+                            <img class="posts__img" src="images/pay.png" alt="about-us">
+                            <p class="descr">Payments made up front through</p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="about-us text-center">
-                            <img class="about-us__img" src="images/computer.png" alt="about-us">
-                            <h2 class="about-us__title">ABOUT US</h2>
+                        <div class="posts text-center">
+                            <img class="posts__img" src="images/computer.png" alt="about-us">
+                            <p class="descr">Infographics or Designed Images
+                                Graphics Are Extra, CAN BE Arranged At
+                                The Time Of Ordering </p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="about-us text-center">
-                            <img class="about-us__img" src="images/percent.png" alt="about-us">
-                            <h2 class="about-us__title">ABOUT US</h2>
+                        <div class="posts text-center">
+                            <img class="posts__img" src="images/percent.png" alt="about-us">
+                            <p class="descr">Discounts are available for bulk
+                                orders and regular clients. These can
+                                be discussed during the ordering process</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="contact" class="section contact">
-            <h2 class="posts__title">ABOUT US</h2>
-            <div class="container about-container">
-                <div class="row justify-content-between">
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="about-us text-center">
-                            <img class="about-us__img" src="images/location.png" alt="about-us">
-                            <h2 class="about-us__title">ABOUT US</h2>
+            <h2 class="contact__title text-center">Contact Us</h2>
+            <div class="container contact-container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="contact d-flex align-items-center">
+                            <img class="contact__img" src="images/location.png" alt="about-us">
+                            <a href="https://google.com">
+                                Kami House, 122 - 161<br>
+                                City Road, Bristol United <br>
+                                Kingdom, EC3V 5NB
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="about-us text-center">
-                            <img class="about-us__img" src="images/email.png" alt="about-us">
-                            <h2 class="about-us__title">ABOUT US</h2>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="contact d-flex align-items-center">
+                            <img class="contact__img" src="images/email.png" alt="about-us">
+                            <a href="https://google.com">
+                                info@personalmail.com
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="about-us text-center">
-                            <img class="about-us__img" src="images/skype.png" alt="about-us">
-                            <h2 class="about-us__title">ABOUT US</h2>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="contact d-flex align-items-center">
+                            <img class="contact__img" src="images/skype.png" alt="about-us">
+                            <a href="https://skype.com">
+                                personalskype
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -175,34 +188,48 @@
         </section>
         <section id="faq" class="section faq">
             <div class="container about-container">
-               <!-- блок аккордеон -->
-               <div class="row">
-                <div class="col">
-                  <h2>Open <b>multiple</b></h2>
-                  <div class="tabs">
-                    <div class="tab">
-                      <input type="checkbox" id="chck1">
-                      <label class="tab-label" for="chck1">Item 1</label>
-                      <div class="tab-content">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
-                      </div>
+                <!-- блок аккордеон -->
+                <div class="row">
+                    <div class="col">
+                        <h2>FAQ</h2>
+                        <div class="tabs">
+                            <div class="tab">
+                                <input type="checkbox" id="chck1">
+                                <label class="tab-label" for="chck1">Item 1</label>
+                                <div class="tab-content">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck2">
+                                <label class="tab-label" for="chck2">Item 2</label>
+                                <div class="tab-content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck3">
+                                <label class="tab-label" for="chck3">Item 3</label>
+                                <div class="tab-content">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck4">
+                                <label class="tab-label" for="chck4">Item 4</label>
+                                <div class="tab-content">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab">
-                      <input type="checkbox" id="chck2">
-                      <label class="tab-label" for="chck2">Item 2</label>
-                      <div class="tab-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
-                      </div>
-                    </div>
-                  </div>
                 </div>
-                </div>
-    <!-- конец блока аккордеон -->    
-                </div>
+                <!-- конец блока аккордеон -->
+            </div>
         </section>
         <!-- Section Footer -->
-    
-    <footer id="footer" class="footer">
+
+        <footer id="footer" class="footer">
 
             <div class="container">
                 <div class="row justify-content-between">
@@ -231,11 +258,11 @@
                     </div>
                 </div>
             </div>
-    
+
         </footer>
-       
+
         <script src="/js/script.js"></script>
-        
+
 </body>
 
 </html>

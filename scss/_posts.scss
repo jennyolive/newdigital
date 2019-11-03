@@ -1,0 +1,23 @@
+@import "_variables.scss";
+
+#posts{
+    padding:100px 110px;
+}
+
+.descr{
+    @include txtdescr;
+    color:$text-color;
+}
+.posts__img{
+    margin-bottom: 10px;
+    width:102px;
+    height:106px;
+}
+
+h2{
+    @include titleh; 
+    margin-bottom: 83px;
+}
+span{
+    color:$red-color;
+}
