@@ -1,22 +1,50 @@
 @import "_variables.scss";
 
-#about{
-padding-top:140px;
+#about {
+    padding-top: 140px;
 }
-.button__primary{
+
+.button__primary {
     @include btn;
+    margin-top: 30px;
+
     &:hover {
         text-decoration: none;
-        color:white;
+        color: white;
     }
 }
-.about-us{
-    &__img{
-    width:536px;
-    height:358px;   
+
+.about-us {
+    &__img {
+        width: 536px;
+        height: 358px;
+        position: absolute;
+        left:-30%;
+        box-shadow: 10px 10px white,
+            20px 20px #03a9eb;
+    }
+
+    &__content {
+        @include txtdescr;
+        color: $text-color;
+    }
 }
-&__content{
-    @include txtdescr;
-    color:$text-color;
+
+.about-us__list {
+    list-style: none;
+  
+
+    li {
+    &:first-child {
+        list-style-image: url(/images/done1.png);
+    }
+
+    &:nth-child(2n) {
+        list-style-image: url(/images/done2.png);
+    }
+
+    &:last-child {
+        list-style-image: url(/images/done3.png);
+    }
 }
 }

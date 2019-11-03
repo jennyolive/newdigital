@@ -13,6 +13,11 @@ $text-color:#4f4f4f;
 }
 @font-face {
 	font-family:'Source Sans Pro', sans-serif;
+	src: url(../fonts/SourceSansPro-Semibold.otf);
+	font-weight:600;
+}
+@font-face {
+	font-family:'Source Sans Pro', sans-serif;
 	src: url(../fonts/SourceSansPro-Bold.otf);
 	font-weight:700;
 }
@@ -71,5 +76,31 @@ font-weight:700;
 color:$text-color;
 font-family: 'Source Sans Pro', sans-serif;
 font-size:19px;
+font-weight:700;
+}
+
+@mixin maintitle{
+color:#f8fcff;
+font-family:'Montserrat', sans-serif;
+font-size:80px;
+font-weight:700;
+}
+@mixin subtitle{
+color:#f8fcff;
+font-family:'Source Sans Pro', sans-serif;
+font-size:38px;
+font-weight:600;
+}
+
+@mixin headertext{
+color:white;
+font-family:'Montserrat', sans-serif;
+font-size:36px;
+font-weight:700;
+}
+@mixin coupon {
+color:$red-color;
+font-family:'Montserrat', sans-serif;
+font-size:50px;
 font-weight:700;
 }
