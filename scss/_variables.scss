@@ -59,3 +59,17 @@ $text-color:#4f4f4f;
 	font-weight: 700;
 	color:$darktitle;
 }
+
+@mixin textaccord{
+color:$text-color;
+font-family: 'Source Sans Pro', sans-serif;
+font-size:30px;
+font-weight:700;
+}
+
+@mixin contentaccord{
+color:$text-color;
+font-family: 'Source Sans Pro', sans-serif;
+font-size:19px;
+font-weight:700;
+}
