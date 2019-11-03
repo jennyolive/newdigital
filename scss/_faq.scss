@@ -19,7 +19,6 @@ input {
   .tab {
     width: 100%;
     overflow: hidden;
-    margin:0;
     border-bottom:1px solid grey;
     @include textaccord;
     &:last-child{
@@ -50,6 +49,7 @@ input {
       max-height: 0;
       background: white;
       transition: all .20s ease;
+      margin-left:15px;
       @include contentaccord;
     }
     &-close {
