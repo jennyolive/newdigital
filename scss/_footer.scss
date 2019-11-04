@@ -1,3 +1,26 @@
 footer{
-    background-color: black;
+    background-color: #1b1b1b;
+    padding-top:90px;
+    padding-bottom: 120px;
+}
+.fa-footer {
+    background: white!important;
+    color:#1b1b1b!important;
+  }
+
+  .logotitlef{
+    color:white;
+    @include logo;
+  }
+  .nav__linkf{
+    @include menu;
+    color:white!important;
+    &:hover {
+        @include changesize;
+        color:white;
+    }
+}
+
+.navigationf{
+    padding-right:50px;
 }

@@ -104,3 +104,16 @@ font-family:'Montserrat', sans-serif;
 font-size:50px;
 font-weight:700;
 }
+
+@mixin menu{
+color:$darktitle;
+font-family:'Source Sans Pro', sans-serif;
+font-size:20px;
+font-weight:400;
+}
+
+@mixin logo{
+font-family:'Montserrat', sans-serif;
+font-size:36px;
+font-weight:700;
+}
