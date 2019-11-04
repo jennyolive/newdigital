@@ -1,26 +1,29 @@
-footer{
+footer {
     background-color: #1b1b1b;
-    padding-top:90px;
+    padding-top: 90px;
     padding-bottom: 120px;
 }
-.fa-footer {
-    background: white!important;
-    color:#1b1b1b!important;
-  }
 
-  .logotitlef{
-    color:white;
+.fa-footer {
+    background: white !important;
+    color: #1b1b1b !important;
+}
+
+.logotitlef {
+    color: white;
     @include logo;
-  }
-  .nav__linkf{
+}
+
+.nav__linkf {
     @include menu;
-    color:white!important;
+    color: white !important;
+
     &:hover {
         @include changesize;
-        color:white;
+        color: white;
     }
 }
 
-.navigationf{
-    padding-right:50px;
+.navigationf {
+    padding-right: 50px;
 }

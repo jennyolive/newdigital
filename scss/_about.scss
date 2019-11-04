@@ -19,7 +19,7 @@
         width: 536px;
         height: 358px;
         position: absolute;
-        left:-30%;
+        left: -30%;
         box-shadow: 10px 10px white,
             20px 20px #03a9eb;
     }
@@ -32,19 +32,18 @@
 
 .about-us__list {
     list-style: none;
-  
 
     li {
-    &:first-child {
-        list-style-image: url(/images/done1.png);
-    }
+        &:first-child {
+            list-style-image: url(/images/done1.png);
+        }
 
-    &:nth-child(2n) {
-        list-style-image: url(/images/done2.png);
-    }
+        &:nth-child(2n) {
+            list-style-image: url(/images/done2.png);
+        }
 
-    &:last-child {
-        list-style-image: url(/images/done3.png);
+        &:last-child {
+            list-style-image: url(/images/done3.png);
+        }
     }
-}
 }

@@ -1,81 +1,90 @@
 @import "_variables.scss";
 
-#faq{
-    padding:156px 110px;
+#faq {
+  padding: 156px 110px;
 }
+
 input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-  }
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
 
 /* Accordion styles */
 .tabs {
-    border-radius: 8px;
-    overflow: hidden;
-    width:80%;
-    
+  border-radius: 8px;
+  overflow: hidden;
+  width: 80%;
+
+}
+
+.tab {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid grey;
+  @include textaccord;
+
+  &:last-child {
+    border-bottom: 0;
   }
-  .tab {
-    width: 100%;
-    overflow: hidden;
-    border-bottom:1px solid grey;
-    @include textaccord;
-    &:last-child{
-        border-bottom: 0;
+
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+
+    /* Icon */
+    &:hover {
+      color: $faq-color;
     }
-    &-label {
-      display: flex;
-      justify-content: space-between;
-      padding: 1em;
-      background: white;
-      font-weight: bold;
-      cursor: pointer;
-      margin:0;
-     
-      /* Icon */
-      &:hover {
-        color: $faq-color;
-      }
-      &::after {
-        content: "\276F";
-        width: 1em;
-        height: 1em;
-        text-align: center;
-        transition: all .20s ease;
-      }
-    }
-    &-content {
-      max-height: 0;
-      background: white;
+
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
       transition: all .20s ease;
-      margin-left:15px;
-      @include contentaccord;
-    }
-    &-close {
-      display: flex;
-      justify-content: flex-end;
-      padding: 1em;
-      font-size: 0.75em;
-      background: white;
-      cursor: pointer;
     }
   }
-  
-  // :checked
-  input:checked {
-    + .tab-label {
-    
-      &::after {
-        transform: rotate(90deg);
-      }
-    }
-    ~ .tab-content {
-      max-height: 100vh;
-      padding: 1em;
+
+  &-content {
+    max-height: 0;
+    background: white;
+    transition: all .20s ease;
+    margin-left: 15px;
+    @include contentaccord;
+  }
+
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: white;
+    cursor: pointer;
+  }
+}
+
+// :checked
+input:checked {
+  +.tab-label {
+
+    &::after {
+      transform: rotate(90deg);
     }
   }
-  .faq__title{
-      margin-bottom: 70px;
-      margin-left:30px;
+
+  ~.tab-content {
+    max-height: 100vh;
+    padding: 1em;
   }
+}
+
+.faq__title {
+  margin-bottom: 70px;
+  margin-left: 30px;
+}

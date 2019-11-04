@@ -1,27 +1,29 @@
-.mainheader{
-background: url("../images/mainbg.jpg") no-repeat;
-background-size: cover;
-background-position: 0 0;
-padding-top:115px;
-padding-bottom:105px;
-border-top:10px solid #009ce3;
+.mainheader {
+    background: url("../images/mainbg.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    padding-top: 115px;
+    padding-bottom: 105px;
+    border-top: 10px solid #009ce3;
 }
 
-.header__title{
+.header__title {
     @include maintitle;
 }
-.header__subtitle{
+
+.header__subtitle {
     @include subtitle;
 }
 
-.header__text{
+.header__text {
     @include headertext;
 }
-.contact-header{
-    margin:50px;
+
+.contact-header {
+    margin: 50px;
 }
 
-.header-cost{
+.header-cost {
     @include coupon;
     position: absolute;
     top: 20%;
@@ -29,6 +31,6 @@ border-top:10px solid #009ce3;
     transform: translateX(-50%)translateY(-20%);
 }
 
-.menu{
-    height:132px;
+.menu {
+    height: 132px;
 }

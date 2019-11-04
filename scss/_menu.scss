@@ -1,18 +1,21 @@
-.nav__link{
+.nav__link {
     @include menu;
+
     &:hover {
         @include changesize;
-        color:#3c3c3c;
+        color: #3c3c3c;
     }
 }
 
-.logospan{
-    color:#3366cc;
+.logospan {
+    color: #3366cc;
 }
-.logotitle{
-    color:#21a6ff;
+
+.logotitle {
+    color: #21a6ff;
     @include logo;
 }
-.nav__item{
-    padding:10px;
+
+.nav__item {
+    padding: 10px;
 }

@@ -1,55 +1,61 @@
-.smallheader{
-    background-color: #292929;
-    height:47px;
+.smallheader {
+  background-color: #292929;
+  height: 47px;
 }
-.smallheadercontact{
-  padding-left:200px;
+
+.smallheadercontact {
+  padding-left: 200px;
 }
+
 .fa {
-    padding: 8px;
-    font-size: 14px;
-    width: 28px;
-    text-align: center;
-    text-decoration: none;
-    margin: 8px 2px;
-    border-radius: 50%;
-  }
-  
+  padding: 8px;
+  font-size: 14px;
+  width: 28px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 2px;
+  border-radius: 50%;
+}
+
 .fa:hover {
-      opacity: 0.7;
-  }
+  opacity: 0.7;
+}
+
 .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
+  background: #3B5998;
+  color: white;
+}
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-google {
-    background: lightgrey;
-    color: grey;
-  }
-  .fa-skype{
-    background: none;
-    color: white;
-    font-size:20px;
-  }
-  .spanskype{
-      color:white;
-  }
+  background: #55ACEE;
+  color: white;
+}
 
-  .fa-envelope{
-    background:none;
-    color: white;
-    font-size:20px;
-  }
+.fa-google {
+  background: lightgrey;
+  color: grey;
+}
 
-  .headerskype{
-      font-size: 14px;
-  }
+.fa-skype {
+  background: none;
+  color: white;
+  font-size: 20px;
+}
 
-  .headermail{
-      font-size:14px;
-  }
+.spanskype {
+  color: white;
+}
+
+.fa-envelope {
+  background: none;
+  color: white;
+  font-size: 20px;
+}
+
+.headerskype {
+  font-size: 14px;
+}
+
+.headermail {
+  font-size: 14px;
+}
